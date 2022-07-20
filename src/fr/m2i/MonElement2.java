@@ -2,8 +2,8 @@ package fr.m2i;
 
 public class MonElement2<T> {
 
-    private MonElement2 previous;
-    private MonElement2 next;
+    private MonElement2<T> previous;
+    private MonElement2<T> next;
 
     private T element;
 
@@ -11,19 +11,19 @@ public class MonElement2<T> {
         this.element = element;
     }
 
-    public MonElement2 getPrevious() {
+    public MonElement2<T> getPrevious() {
         return previous;
     }
 
-    public void setPrevious(MonElement2 previous) {
+    public void setPrevious(MonElement2<T> previous) {
         this.previous = previous;
     }
 
-    public MonElement2 getNext() {
+    public MonElement2<T> getNext() {
         return next;
     }
 
-    public void setNext(MonElement2 next) {
+    public void setNext(MonElement2<T> next) {
         this.next = next;
     }
 
