@@ -18,6 +18,20 @@ public class MainTp5 {
 
         liste.remove("titi");
         System.out.println(liste.print());
+
+
+        Maliste2<String> liste2 = new Maliste2<>();
+
+        liste2.add("lolo");
+        liste2.add("lili");
+        liste2.add("lulu");
+
+        System.out.println(liste2.get(1));
+        System.out.println(liste2.print());
+
+        liste2.removeAt(1);
+        System.out.println(liste2.print());
+
 //
 //        System.out.println(liste.get(1));
 //
